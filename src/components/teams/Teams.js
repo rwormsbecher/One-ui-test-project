@@ -12,7 +12,11 @@ const Teams = props => {
         subtext="Young Professional"
       >
         <SummaryItem header="Lid van:" subtext="2 teams" />
-        <SummaryItem header="Andere header:" subtext="Een subtext" />
+        <SummaryItem
+          header="Andere header:"
+          subtext="Een subtext"
+          showBorder={false}
+        />
       </Summary>
 
       <ContentAreaContainer>
